@@ -58,6 +58,7 @@ public class CalcController{
 		Text text=(Text)hbox.lookup("#text1");
 		String value=text.getText();
 		text.setText(value+ "9");
+		
 	}
 	public void clickc(MouseEvent event) {
 		Text text=(Text)hbox.lookup("#text1");
