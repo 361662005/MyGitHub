@@ -114,6 +114,6 @@ public class CalcController{
 			}
 					
 		}
-		text.setText(result+"");
+		text.setText(result+" ");
 	}
 }
