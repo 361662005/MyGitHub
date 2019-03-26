@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="hbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="357.0" prefWidth="264.0" xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.demo.CalcController">
+   <children>
+      <Text fx:id="text1"  strokeType="OUTSIDE" strokeWidth="0.0" text="" wrappingWidth="62.216796875">
+         <HBox.margin>
+            <Insets bottom="-0.0" left="-0.0" />
+         </HBox.margin>
+      </Text>
+      <GridPane prefHeight="358.0" prefWidth="172.0">
+        <columnConstraints>
+          <ColumnConstraints />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="btn7" mnemonicParsing="false" onMouseClicked="#click7" text="7" GridPane.columnIndex="1" />
+            <Button fx:id="btn8" mnemonicParsing="false" onMouseClicked="#click8" text="8" GridPane.columnIndex="2" />
+            <Button fx:id="btn9" mnemonicParsing="false" onMouseClicked="#click9" text="9" GridPane.columnIndex="3" />
+            <Button fx:id="btnp" mnemonicParsing="false" onMouseClicked="#clickp" text="+" GridPane.columnIndex="4" />
+            <Button fx:id="btn4" mnemonicParsing="false" onMouseClicked="#click4" text="4" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="btn5" mnemonicParsing="false" onMouseClicked="#click5" text="5" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="btn6" mnemonicParsing="false" onMouseClicked="#click6" text="6" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="btnm" mnemonicParsing="false" onMouseClicked="#clickm" text="-" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button fx:id="btn1" mnemonicParsing="false" onMouseClicked="#click1" text="1" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="btn2" mnemonicParsing="false" onMouseClicked="#click2" text="2" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="btn3" mnemonicParsing="false" onMouseClicked="#click3" text="3" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="btnt" mnemonicParsing="false" onMouseClicked="#clickt" text="*" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button fx:id="btnc" mnemonicParsing="false" onMouseClicked="#clickc" text="C" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="btn0" mnemonicParsing="false" onMouseClicked="#click0" text="0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button fx:id="btne" mnemonicParsing="false" onMouseClicked="#clicke" text="=" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button fx:id="btnd" mnemonicParsing="false" onMouseClicked="#clickd" text="/" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+         </children>
+      </GridPane>
+   </children>
+</HBox>
